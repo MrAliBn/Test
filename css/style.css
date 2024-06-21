@@ -1,0 +1,38 @@
+body{
+    padding: 10px;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.pass .icon{
+    position: relative;
+    transform: translatey(-126%);
+    font-size: 25px;
+    left: 95%;
+    cursor: pointer;
+    display: flex;
+}
+.form-modal{
+    background: white;
+    height: auto;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    display: none;
+}
+.body-modal{
+    text-align: center;
+}
+.close{
+    font-size: 30px;
+    position: relative;
+    bottom: auto;
+    left: auto;
+    color: black;
+    border-radius: 17px;
+    cursor: pointer;
+}
